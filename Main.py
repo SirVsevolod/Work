@@ -132,7 +132,7 @@ def appearance(intervals):
                     pupil_in_tutor.append([pupil[i], pupil[i + 1]])
 
     for i in pupil_in_tutor:
-        time = time + abs(pupil[1] - pupil[0])
+        time = time + abs(i[1] - i[0])
     return time
 
 
